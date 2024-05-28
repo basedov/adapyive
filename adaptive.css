@@ -1,0 +1,68 @@
+/* adaptive.css */
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* зміна шрифту для покращення читабельності */
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8; /* ніжний фон */
+    color: #333; /* колір тексту */
+}
+
+.container {
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+    background-color: #fff; /* колір фону контейнера */
+    box-shadow: 0 0 10px rgba(0,0,0,0.1); /* легка тінь для контейнера */
+    border-radius: 8px; /* закруглені кути */
+    margin-top: 20px; /* відступ зверху */
+}
+
+h1 {
+    text-align: center; /* центрування заголовку */
+    color: #007bff; /* колір заголовку */
+}
+
+p {
+    line-height: 1.6; /* інтерліньяж */
+}
+
+abbr {
+    text-decoration: none;
+    border-bottom: 1px dotted #007bff; /* підкреслення аббревіатур */
+    cursor: help; /* курсор при наведенні */
+}
+
+blockquote {
+    border-left: 4px solid #007bff; /* кольорова лінія зліва */
+    padding-left: 10px;
+    margin-left: 0;
+    color: #555;
+    font-style: italic; /* курсивний стиль для цитат */
+}
+
+.bdo-example {
+    text-align: right; /* текст справа наліво */
+    font-style: normal; /* звичайний стиль тексту */
+    font-weight: bold; /* жирний шрифт */
+}
+
+address {
+    margin-top: 10px; /* відступ зверху */
+    font-style: italic; /* курсивний стиль */
+}
+
+.responsive {
+    max-width: 100%;
+    height: auto;
+    display: block; /* фіксований розмір */
+    margin: 20px 0; /* відступи */
+    border-radius: 8px; /* закруглені кути */
+    box-shadow: 0 0 5px rgba(0,0,0,0.2); /* тінь */
+}
+
+@media (max-width: 600px) {
+    .container {
+        padding: 10px; /* адаптивна ширина */
+    }
+}
